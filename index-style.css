@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(131, 43%, 37%);
+    font-family: Inter;
+}
+
+.m-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.l-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    height: 400px;
+    width: 400px;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+.l-container input {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+#usrnm {
+    margin-top: 60px;
+}
+
+#login {
+    width: 308px;
+    height: 56px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+#login:hover {
+    width: 308px;
+    height: 56px;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: hsl(130, 30%, 50%);
+    color: rgb(255, 255, 255);
+}
