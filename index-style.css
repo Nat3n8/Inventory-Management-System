@@ -18,7 +18,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 83%);
     height: 400px;
     width: 400px;
     gap: 30px;
@@ -49,6 +49,7 @@ h1 {
     height: 56px;
     border-radius: 15px;
     font-size: 30px;
+    color: hsl(131, 43%, 37%);
 }
 
 #login:hover {
@@ -58,4 +59,5 @@ h1 {
     font-size: 30px;
     background-color: hsl(130, 30%, 50%);
     color: rgb(255, 255, 255);
+    transition: 0.25s;
 }
