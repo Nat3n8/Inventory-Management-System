@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="index-style.css">
     <title>Login I.M.S</title>
     <link rel="icon" href="imgs/updated_warehouse.svg">
-    <!-- test -->
+    <script src="demo-vali.js" defer></script>
 </head>
 <body>
     <main class="m-container">
@@ -19,11 +19,12 @@
             </nav>
         </header>
 
-        <form action="login" class="l-container">
-            <input type="text" name="username" id="usrnm" placeholder="Username" required>
-            <input type="password" name="password" id="pswrd" placeholder="Password" required>
+        <form id="loginForm" class="l-container">
+            <input type="text" name="username" id="usrnm" placeholder="Username: demo" required>
+            <input type="password" name="password" id="pswrd" placeholder="Password: 1234" required>
             <button type="submit" id="login">Login <img src="imgs/login.svg" alt=""></button>
         </form>
+
     </main>
 </body>
 </html>
