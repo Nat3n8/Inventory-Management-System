@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(131, 43%, 37%);
+    font-family: Inter;
+}
+
+h1 {
+    color: hsl(0, 0%, 83%);
+    text-align: center;
+}
+
+.m-container {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 175px 175px;
+    grid-template-areas: 
+    "scan sort"
+    "stow back"
+    ;
+    grid-template-rows: 150px 150px 150px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.route-container {
+    background-color: hsl(0, 0%, 83%);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: hsl(131, 43%, 37%);
+    border-radius: 15px;
+    transition: 0.25s;
+
+}
+
+.route-container:hover {
+    background-color: hsl(0, 0%, 42%);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 83%);
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 83%);
+    transition: 0.25s;
+}

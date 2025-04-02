@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(131, 43%, 37%);
+    font-family: Inter;
+}
+
+h1 {
+    color: hsl(0, 0%, 83%);
+    text-align: center;
+}
+
+.m-container {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 175px 175px;
+    grid-template-areas: 
+    "scanr scanr"
+    "scanr scanr"
+    "scbtn back"
+    ;
+    grid-template-rows: 150px 150px 150px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.scanner-window {
+    display: flex;
+    border: 2px solid hsl(0, 0%, 83%);
+    border-radius: 15px;
+    justify-content: center;
+    grid-area: scanr;
+    background-color: black;
+    background-image: url(../imgs/no_photography_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg);
+    background-size:contain;
+    background-repeat: round;
+}
+
+.scanner-window img {
+    opacity: 0.7;
+}
+
+
+#scanr {
+    grid-area: scbtn;
+}
+
+#back-btn {
+    grid-area: back;
+}
+
+#scanr, #back-btn {
+    background-color: hsl(0, 0%, 83%);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: hsl(131, 43%, 37%);
+    border-radius: 15px;
+    transition: 0.25s;
+}
+
+#scanr:hover, #back-btn:hover {
+    background-color: hsl(0, 0%, 42%);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 83%);
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 83%);
+    transition: hover
+}
